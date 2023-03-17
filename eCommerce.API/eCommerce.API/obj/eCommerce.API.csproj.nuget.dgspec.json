@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adriano.maretti\\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\\Documentos\\Estudos\\Dapper\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj": {}
+    "C:\\Users\\Adriano\\Documents\\Estudos\\Dapper-studies\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adriano.maretti\\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\\Documentos\\Estudos\\Dapper\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj": {
+    "C:\\Users\\Adriano\\Documents\\Estudos\\Dapper-studies\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adriano.maretti\\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\\Documentos\\Estudos\\Dapper\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj",
+        "projectUniqueName": "C:\\Users\\Adriano\\Documents\\Estudos\\Dapper-studies\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj",
         "projectName": "eCommerce.API",
-        "projectPath": "C:\\Users\\adriano.maretti\\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\\Documentos\\Estudos\\Dapper\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj",
-        "packagesPath": "C:\\Users\\adriano.maretti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adriano.maretti\\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\\Documentos\\Estudos\\Dapper\\eCommerce.API\\eCommerce.API\\obj\\",
+        "projectPath": "C:\\Users\\Adriano\\Documents\\Estudos\\Dapper-studies\\eCommerce.API\\eCommerce.API\\eCommerce.API.csproj",
+        "packagesPath": "C:\\Users\\Adriano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adriano\\Documents\\Estudos\\Dapper-studies\\eCommerce.API\\eCommerce.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\adriano.maretti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adriano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +41,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -68,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -30,3 +30,42 @@ C:\Users\adriano.maretti\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\Do
 C:\Users\adriano.maretti\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\Documentos\Estudos\Dapper\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.pdb
 C:\Users\adriano.maretti\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\Documentos\Estudos\Dapper\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.genruntimeconfig.cache
 C:\Users\adriano.maretti\OneDrive - Fitcard Locacao de Equipamentos LTDA - ME\Documentos\Estudos\Dapper\eCommerce.API\eCommerce.API\obj\Debug\net6.0\ref\eCommerce.API.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.csproj.AssemblyReference.cache
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.AssemblyInfoInputs.cache
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.AssemblyInfo.cs
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.csproj.CoreCompileInputs.cache
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\refint\eCommerce.API.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.pdb
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\appsettings.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\eCommerce.API.exe
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\eCommerce.API.deps.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\eCommerce.API.runtimeconfig.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\eCommerce.API.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\eCommerce.API.pdb
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\Dapper.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.eCommerce.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.build.eCommerce.API.props
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.eCommerce.API.props
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.eCommerce.API.props
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\scopedcss\bundle\eCommerce.API.styles.css
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.csproj.CopyComplete
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\eCommerce.API.genruntimeconfig.cache
+C:\Users\Adriano\Documents\Estudos\Dapper-studies\eCommerce.API\eCommerce.API\obj\Debug\net6.0\ref\eCommerce.API.dll
