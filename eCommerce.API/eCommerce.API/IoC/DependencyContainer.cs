@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace eCommerce.API.IoC
 {
-    public static class ContainerDeDependencias
+    public static class DependencyContainer
     {
         private static string? _conexaoSqlServer { get; set; }
         private static IConfiguration _configuration;
@@ -14,7 +14,7 @@ namespace eCommerce.API.IoC
         /// Inicializa as propriedades necessárias para injeção de dependencia do negócio.
         /// </summary>
         /// <param name="configuration"></param>
-        public static void InicializarPropriedadesDeInjecao(this IConfiguration configuration)
+        public static void InitInjectionProperties(this IConfiguration configuration)
         {
             _configuration = configuration;
             _conexaoSqlServer = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=eCommerce;Integrated Security=True;Connect Timeout=30;Encrypt=False";
@@ -27,13 +27,13 @@ namespace eCommerce.API.IoC
         /// </summary> 
         /// <param name="services"></param>
         /// <exception cref="NotImplementedException"></exception>
-        public static void AdicionarInjecaoNegocio(this IServiceCollection services)
+        public static void AddBussinessInjection(this IServiceCollection services)
         {
             services.AddScoped<IUserRepository, UserRepository>();
 
             // Sql Server
             if (string.IsNullOrEmpty(_conexaoSqlServer))
-                throw new NotImplementedException(Mensagens.InjetarPropriedades);
+                throw new NotImplementedException(Messages.InjectProperties);
 
             services.AddSingleton<IConfiguration>(_configuration);
 
