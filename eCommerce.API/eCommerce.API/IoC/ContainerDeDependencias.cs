@@ -17,7 +17,7 @@ namespace eCommerce.API.IoC
         public static void InicializarPropriedadesDeInjecao(this IConfiguration configuration)
         {
             _configuration = configuration;
-            _conexaoSqlServer = configuration.GetConnectionString("SqlServerConnection");
+            _conexaoSqlServer = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=eCommerce;Integrated Security=True;Connect Timeout=30;Encrypt=False";
         }
 
         /// <summary>
@@ -37,9 +37,10 @@ namespace eCommerce.API.IoC
 
             services.AddSingleton<IConfiguration>(_configuration);
 
-            services.AddTransient<IDbConnection>((sp) => new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=eCommerce;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"););
+            services.AddTransient<IDbConnection>((sp) => new SqlConnection(_conexaoSqlServer));
             // PostGreSql
             //string postgreSqlConnectionString = configuration.GetConnectionString("PostgreSqlConnection");
             //services.AddTransient<IDbConnection>((sp) => new NpgsqlConnection(postgreSqlConnectionString));
         }
     }
+}
