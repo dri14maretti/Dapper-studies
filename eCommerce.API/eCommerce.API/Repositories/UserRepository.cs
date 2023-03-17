@@ -1,9 +1,17 @@
-﻿using eCommerce.API.Models;
+﻿using Dapper;
+using eCommerce.API.Models;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace eCommerce.API.Repositories
 {
     public class UserRepository : IUserRepository
     {
+        private IDbConnection _connection;
+        public UserRepository(IDbConnection connection)
+        {
+            _connection = connection;
+        }
         private static List<User> _db = new List<User>()
         {
             new User() {Id = 1, Name = "Maretti", Email = "maretti@gmail.com"},
@@ -13,7 +21,7 @@ namespace eCommerce.API.Repositories
         
         public List<User> Get()
         {
-            return _db;
+            return _connection.Query<User>("SELECT * FROM usuarios").ToList();
         }
 
         public User GetById(int id)
