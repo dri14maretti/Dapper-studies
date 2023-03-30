@@ -22,7 +22,7 @@ namespace eCommerce.API.Controllers
             return Ok(_userRepository.Get()); // HTTP - 200
         }
         
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
             var returnedUser = _userRepository.GetById(id);

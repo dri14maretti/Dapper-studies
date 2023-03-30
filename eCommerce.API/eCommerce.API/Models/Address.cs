@@ -10,6 +10,7 @@ namespace eCommerce.API.Models
         public string City { get; set; }
         public string Region { get; set; }
         public string PostalCode { get; set; }
+        public string State { get; set; }
         public string AddressDescription { get; set; }
         public string Complement { get; set; }
 

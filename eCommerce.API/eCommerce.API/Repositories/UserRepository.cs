@@ -21,20 +21,26 @@ namespace eCommerce.API.Repositories
         
         public List<User> Get()
         {
-            return _connection.Query<User>("SELECT * FROM usuarios").ToList();
+            var query = "SELECT * FROM Users";
+            return _connection.Query<User>(query).ToList();
         }
 
         public User GetById(int id)
         {
-            return _db.FirstOrDefault(x => x.Id == id);
+            var query = "SELECT * FROM Users WHERE Id = @Id";
+
+            return _connection.QuerySingleOrDefault<User>(query, new { Id = id });
         }
         public void Insert(User user)
         {
-            var lastUser = _db.LastOrDefault();
+            var sql = @"INSERT INTO Users 
+                            (Name, Email, Gender, Rg, CPF, MotherName, RegistrationSituation, RegistrationDate)
+                            VALUES
+                            (@Name, @Email, @Gender, @Rg, @CPF, @MotherName, @RegistrationSituation, @RegistrationDate);
+                        SELECT CAST(SCOPE_IDENTITY() AS INT);
+                        ";
 
-            user.Id = lastUser == null ? 1 : lastUser.Id + 1;
-
-            _db.Add(user);
+            user.Id = _connection.Query<int>(sql, user).Single();
         }
         public void Update(User user)
         {
