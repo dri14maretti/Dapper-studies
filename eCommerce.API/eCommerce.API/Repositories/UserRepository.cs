@@ -44,14 +44,17 @@ namespace eCommerce.API.Repositories
         }
         public void Update(User user)
         {
-            var userFound = _db.FirstOrDefault(x => x.Id == user.Id);
-
-            _db.Remove(userFound);
-            _db.Add(user);
+            var sql = @"UPDATE Users 
+                        SET VALUES
+                            (@Name, @Email, @Gender, @Rg, @CPF, @MotherName, @RegistrationSituation, @RegistrationDate)
+                        WHERE Id = @Id";
         }
         public void Delete(int id)
         {
-            _db.Remove(_db.FirstOrDefault(x => x.Id == id));
+            var sql = @"DELETE FROM User
+                            WHERE Id = @id";
+
+            _connection.Query(sql, id);
         }
 
 
