@@ -12,12 +12,6 @@ namespace eCommerce.API.Repositories
         {
             _connection = connection;
         }
-        private static List<User> _db = new List<User>()
-        {
-            new User() {Id = 1, Name = "Maretti", Email = "maretti@gmail.com"},
-            new User() {Id = 2, Name = "Teste", Email = "teste@gmail.com"},
-            new User() {Id = 2, Name = "Pedro Henrique", Email = "pedro@gmail.com"}
-        };
         
         public List<User> Get()
         {
@@ -45,16 +39,18 @@ namespace eCommerce.API.Repositories
         public void Update(User user)
         {
             var sql = @"UPDATE Users 
-                        SET VALUES
-                            (@Name, @Email, @Gender, @Rg, @CPF, @MotherName, @RegistrationSituation, @RegistrationDate)
+                        SET
+                            Name = @Name, Email = @Email, Gender = @Gender, Rg = @Rg, CPF = @CPF, MotherName = @MotherName, RegistrationSituation = @RegistrationSituation, RegistrationDate = @RegistrationDate
                         WHERE Id = @Id";
+
+            _connection.Execute(sql, user);
         }
         public void Delete(int id)
         {
             var sql = @"DELETE FROM User
                             WHERE Id = @id";
 
-            _connection.Query(sql, id);
+            _connection.Execute(sql, id);
         }
 
 
