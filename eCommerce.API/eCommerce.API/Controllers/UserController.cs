@@ -30,7 +30,7 @@ namespace eCommerce.API.Controllers
             if (returnedUser == null)
                 return NotFound();
 
-            return Ok(returnedUser); // HTTP - 200
+            return Ok(returnedUser); 
         }
         [HttpPost]
         public IActionResult Inserir(User usuario)

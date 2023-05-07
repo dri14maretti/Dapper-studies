@@ -14,7 +14,7 @@ namespace eCommerce.API.IoC
         /// Inicializa as propriedades necessárias para injeção de dependencia do negócio.
         /// </summary>
         /// <param name="configuration"></param>
-        public static void InitInjectionProperties(this IConfiguration configuration)
+        public static void InitPropertiesInjection(this IConfiguration configuration)
         {
             _configuration = configuration;
             _conexaoSqlServer = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=eCommerceV2;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
